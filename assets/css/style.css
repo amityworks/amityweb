@@ -21,16 +21,22 @@ body {
     text-align: center;
     width: 100%;
     padding-top: 20%;
+    padding-right: 40px;
     z-index: 2;
     font-family: Raleway;
     color: white;
-    text-transform: uppercase;
 }
 
 .content h1 {
-    font-size: 8vw;
+    font-size: 9vw;
     font-weight: 400;
     letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.content h2 {
+    font-size: 3vw;
+    font-variant: small-caps;
 }
 
 .fa {
@@ -65,3 +71,11 @@ ul {
   background-repeat: no-repeat;
   z-index: 1;
 }
+
+/* ---- additional ---- */
+.pill {
+  width: 90px;
+
+  
+}
+
